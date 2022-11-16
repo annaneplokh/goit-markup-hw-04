@@ -133,6 +133,8 @@ body{
 .site-connect .connect-link{
     color: var(--primery-text-color);
     text-decoration: none;
+
+    
 }
 
 .site-connect .connect-link:hover, 
@@ -140,40 +142,21 @@ body{
     color: var(--accent-color);
 }
 
-.header-icon{
-    display: flex;
-    align-items: center;
-}
+
 
 .header-ic{
-        margin-right: 10px;
+    vertical-align: middle;
+    margin-right: 10px;
+
 }
 
-.header-icon:hover .header-ic{
+.connect-link:hover,
+.connect-link:focus{
     fill: var(--accent-color);
-}
-
-.header-icon:hover .connect-link{
     color: var(--accent-color);
 }
 
-.header-icon:focus{
-    fill: var(--accent-color);
-}
 
-.header-icon:focus{
-    color: var(--accent-color);
-}
-
-.icon-envel{
-    width:16px;
-    height:12px;
-}
-
-.icon-tel{
-    width: 10px ;
-    height: 16px ;
-}
 
 
 
@@ -288,11 +271,11 @@ body{
     margin-bottom: 30px;
 }
 
-.advantage-icon{
+/* .advantage-icon{
     width: 70px;
     height: 70px;
 
-}
+} */
 
 .list-advantage{
     display: flex;
@@ -455,9 +438,6 @@ body{
 
 
 .icon{
-
-    width: 20px;
-    height: 20px;
     
     fill: #AFB1B8;
 }
@@ -476,22 +456,24 @@ body{
 }
 
 .link-client{
-    padding: 16px 32px;
+    padding-top: 13%;
     width: 170px;
     height: 92px;
     border: 1px solid #AFB1B8;
     border-radius: 4px;
     display: inline-block;
 
+    text-align: center;
+    ;
+
 }
 
 .client{
-   
+    vertical-align: middle;
     fill: #afb1b8;
-    width: 106px;
-    height: 60px;
-    
-
+    /* width: 106px;
+    height: 60px; */
+  
 }
 
 /* .client:hover{
@@ -598,9 +580,6 @@ body{
 }
 
 .icon-footer{
-    width: 20px;
-    height: 20px;
-    
     fill: #FFFFFF;
 }
 
